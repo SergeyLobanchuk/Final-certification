@@ -26,11 +26,6 @@ ul {
 
 
 
-
-input::-ms-clear {
-  display: none;
-}
-
 img,
 svg {
   max-width: 100%;
@@ -188,12 +183,12 @@ body {
   font-size: 16px;
   line-height: 50px;
   color: #fff;
-
+  background: #0f1f4b;
   transition: background 0.3s ease-in, color 0.3s ease-in;
 }
 
 .btn:hover {
-  background: #f8f9ff;
+  background: #ef2a82;
   color: #0f1f4b;
 }
 
@@ -203,13 +198,12 @@ body {
 }
 
 .btn--red {
-  background: #ef2a82;
+  background: #0f1f4b;
+  color: #fff;
+  border: 1px solid #2a407c;
 }
 
-.btn--back-dark:hover {
-  background: #0f1f4b;
-  color: #f8f9ff;
-}
+
 
 .btn-border {
   border: 1px solid #2a407c;
@@ -304,7 +298,7 @@ body {
   align-items: center;
 }
 
-.automated__row+.automated__row {
+.automated__row {
   margin-top: 120px;
 }
 
@@ -368,16 +362,20 @@ body {
 }
 
 .card-white {
-  background-color: #fff;
-  box-shadow: 0px 18px 50px -15px #060f28;
+  background-color: #0f1f4b;
+  box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+
 }
 
 .card__content {
   padding: 50px 60px 70px 60px;
 }
 
-.card__top {
-  border-bottom: 1px solid #d3d9e9;
+
+.card__content:hover {
+  background: #92a7b8;
+  border-radius: 30px;
+
 }
 
 .card__top--border-color {
@@ -411,7 +409,7 @@ body {
 }
 
 .card--color {
-  color: #172755;
+  color: #fff;
 }
 
 .card__inner-cost span {

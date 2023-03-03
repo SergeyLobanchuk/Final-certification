@@ -4,12 +4,6 @@
   border: none;
 }
 
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-
 
 a {
   text-decoration: none;
@@ -53,12 +47,9 @@ body {
   background: #f8f9ff;
 }
 
-.none {
-  display: none;
-}
 
 .header {
-  background-image: url("/Итоговая работа/img/header/header-bg.png");
+  background-image: url("/img/header/header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -238,7 +229,7 @@ body {
 .header__img::before {
   position: absolute;
   content: "";
-  background-image: url("/Итоговая работа/img/header/screen-chart.svg");
+  background-image: url("/img/header/screen-chart.svg");
   background-repeat: no-repeat;
   width: 361px;
   height: 247px;
@@ -341,7 +332,7 @@ body {
 }
 
 .price {
-  background-image: url("../img/price/price-bg.png");
+  background-image: url("/img/price/price-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 1086px;
@@ -724,4 +715,3 @@ select {
   color: inherit;
   background-color: transparent;
 }
-
